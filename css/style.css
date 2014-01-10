@@ -1541,5 +1541,5 @@ body > section.v-center > div {
 }
 
 tt {
-    font-family: Menlo, Consolas, 'Ubuntu Mono', 'DejaVu Sans Mono';
+    font-family: Menlo, 'Source Code Pro', 'Ubuntu Mono', 'DejaVu Sans Mono', 'Droid Sans Mono', 'Fira Mono OT', Consolas, monospace;
 }
