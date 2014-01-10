@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>g0v.tw &ndash; 1st year</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="canonical" href="http://g0v.asia/"/>
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <link rel="stylesheet" href="./flat-ui/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="./flat-ui/bootstrap/css/bootstrap-responsive.css">
+        <link rel="stylesheet" href="./flat-ui/css/flat-ui.css">
+        
+        <!-- Using only with Flat-UI (free)-->
+            <link rel="stylesheet" href="./common-files/css/icon-font.css">
+        <!-- end -->  
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="./flat-ui/js/html5shiv.js"></script>
+        <![endif]-->
+        <base target="_blank">
+        <style>
+            body { font-size: 16px; }
+            img { max-height: 50ex; }
+            h1 { border-bottom: 1px solid #ddd; padding-top: 1ex }
+            h2, li { padding-top: 0.5ex; padding-bottom: 0.5ex }
+            p, blockquote p { line-height: 140% }
+            .container { max-width: 90ex }
+        </style>
+    </head>
+
+    <body><div class="container">
+<h1>Introduction</h1>
+<p>By 2012, Social Media has firmly entrenched itself in Taiwanese everyday life, with Facebook alone claiming 75% of online users. However, netizens remained pessimistic about the potential of online civic empowerment — or even engagement. The writer Chang Ta-Chuen captured this sense of disconnect in an <a href="http://techorange.com/2013/06/03/interview-with-chang-ta-chuen/">interview</a>:</p>
+<blockquote>
+<p>Q: Do you see Facebook as an instrument to encourage civic engagement?</p>
+<p>Chang: No, I can most definitely say, absolutely not. It makes citizens feel <em>as if</em> they have participated. […] I still can’t see how an actual, practical activism can succeed at engaging people, as lazy as we are.</p>
+</blockquote>
+<p>According to blogger TH Schee’s <a href="http://blog.schee.info/2012/04/02/mobilization/">analysis</a>, the problems were five-fold:</p>
+<ol>
+<li>Media presence of NPOs was ineffective and often reactive</li>
+<li>Individuals felt powerless to influence policies</li>
+<li>Online participation could not translate into offline action</li>
+<li>Open-source communities cared little for social issues</li>
+<li>Generation gap prevented offline and online activists from collaborating</li>
+</ol>
+<p>In this article we present <a href="http://g0v.tw/">g0v.tw</a>, a civic movement by informed netizens toward participatory self-government. Born out of frustration at the government’s blithe lack of transparency at the end of 2012, in one year we have made these ongoing contributions:</p>
+<ol>
+<li>By establishing participatory media channels such as News Helper (Q3.3) and Congress Matters (Q4.1), we work with traditional media on equal terms (Q4.2).</li>
+<li>By crowd-producing definitive works such as dictionaries (Q1.2), welfare directories (Q2.1) and contemporary history (Q2.3), we transform ourselves from passive consumers (Q0.2) into effective agents.</li>
+<li>By organizing regular hackathons (Q0.3) and offering logistic support to social movements (Q3.2), we create a shared cultural space (Q4.3) that blends online and offline activism.</li>
+<li>By constructing sites of social production modeled after open-source principles (Q1.1), we shape civic projects into communal grounds for learning and hacking alike (Q2.2).</li>
+<li>By designing outreach programs on social issues such as labor rights (Q1.3), we form ongoing dialogues with established activists, promoting social awareness and online consensus-building (Q3.1).</li>
+</ol>
+<p>The unifying idea behind our contributions is a simple one:
+Taking a <em>hands-on</em>, <em>open-source</em> and <em>public-spirited</em> approach, we combine best practices from Free Software, Civic Media and Social Activism into an active community around Information Transparency.</p>
+<center>
+    <img src="http://g0v.tw/imgs/g0v-about-en.png" alt="illus. 1" />
+</center>
+<h1>Background: Winter of 2012</h1>
+<h2>The “Real Price” Incident [Q0.1]</h2>
+<p>Amidst popular unrest regarding speculative housing inflation, President Ma Ying-Jiu made <em>housing justice</em> a key component of his 2012 re-election platform. In an attempt to counter speculation and enable fair taxation, the parliament passed a bipartisan bill mandating that all real estate transactions register the actual price.</p>
+<p>As part of the mandate, the Ministry of the Interior commissioned a website on which people can find transaction records by street address. The site went live on October 16 to a flood of requests and remained only intermittently accessible for most of October.</p>
+<p>Three days after the launch, a team of four Google.tw engineers incorporated the Ministry’s data into their “Real-Price Maps” website, overlaying aggregated pricing information on Google Maps with a plethora of filtering features. Their remix was an instant success, serving hundreds of requests per second from Google App Engine without a hitch.</p>
+<p>A week later, Minister without portfolio Zhang Shan-Zheng (a Google alum himself) invited the remixers to a round table. The team responded amiably, offering <a href="http://goo.gl/r2082">detailed suggestions</a> about how they would like to collaborate with the government.</p>
+<p>However, after sensational media coverage pitted the team’s shoestring budget of NTD$500 against the official site’s “million-dollar disaster”, the relationship between the two soon turned sour. The Ministry used the crawling activity as a convenient excuse for their own server’s downtime, while critics questioned the legality of scraping and remixing government data.</p>
+<p>The incident came to a head on November 14, when the official site replaced all street addresses with image files, dramatically increasing the burden of crawling. While a skilled hacker eventually published parsed data using OCR techniques, it is clear that the attrition is of no benefit to anyone. The Real-Price Maps site closed shortly thereafter.</p>
+<h2>“Power-Up Plan for the Economy” [Q0.2]</h2>
+<p>While the Real Price incident was still unfolding, a new government production took the spotlight: A 40-seconds propaganda video titled “What's the Economy Power-Up Plan?”</p>
+<p>Entirely devoid of information, the clip simply repeated the following monotonous refrain: “We have a very complex plan. It is too complicated to explain. Never mind the details — just follow instructions and go along with it!”</p>
+<p>Met with widespread incredulity and mockery, the video went viral as viewers on YouTube rushed to click “report abuse” in protest. The automated system quickly classified the video as scam and banned the government's YouTube account for two days.</p>
+<p>The video went on-air again on October 19, just before Yahoo Open Hack Day 2012, an annual 24-hour event in which sixty-four teams show off their innovative creations. Infuriated by the controversial ad, the four members of the “Hacker #15” team made a last-minute pivot from their “online window shopping” project. Rather than displaying merchandises, they resolved to create a bird’s eye view of how taxes are spent.</p>
+<p>The resulting “Budget Maps” presented each agency’s annual spending in the form of geometric shapes of proportional sizes, inviting participants to review and rate each item’s usefulness. Calling upon citizens to “strike out rip-off spending (e.g. the Power-Up ad)”, the two-minute demo won NTD$50K in Hack Day prizes.</p>
+<p>While demo day crowds are known to quickly forget such projects, team member CL Kao came up with an elegant hack to keep this one alive. He registered the catchy domain name <strong>g0v.tw</strong>, dedicated to citizens’ remixes of government websites. The Real-Price Maps thus became accessible at <strong>lvr.land.moi.g0v.tw</strong> — literally just one fingertip away from its official counterpart at <strong>lvr.land.moi.gov.tw</strong>; meanwhile, the Budget Maps lived on at <strong>budget.g0v.tw</strong> as the inaugural g0v.tw project.</p>
+<h2>Hackath0n [Q0.3]</h2>
+<p>Equipped with the new g0v.tw domain, the four hackers agreed to spend the $50k prize on their own Hackathon to enlist more projects into this newfangled syndicate of civic remixes. Modeled after participant-driven “BarCamp” events, they named the event “0th Hackathon of Martial Mobilization”, invoking a rebellious image from the 1949-era civil war.</p>
+<p>Enthusiastic registrants soon exceeded the initial venue’s capacity. Fortunately, a lab director at Academia Sinica offered to host the event at the Institute of Information Science. On December 1, civic hackers filled the institute’s 80-person auditorium and presented their projects, covering a wide range of government functions, including Congress, Tenders, Geography, Weather, Electricity, Healthcare and many other areas. Lively discussion continued online at <a href="http://g0v.hackpad.com/">Hackpad</a> and <a href="http://hack.g0v.tw/irc">IRC</a> well after the daylong event.</p>
+<p>In support of the coding efforts, writers and bloggers formed a Facebook group “copywriting on demand”, offering their skills to any project that asked for support. Designer Even Wu also initiated a “design on demand” group, providing hackers with various visual assets.</p>
+<p>Dissatisfied with the makeshift logo banner, Wu would continue to work on several iterations of the logotypes, eventually completing a set of Visual Identity guidelines, which elevated g0v into an easily recognizable brand.</p>
+<p><img src="https://dchtm6r471mui.cloudfront.net/hackpad.com_hmHV14IhfO2_p.41199_1388875869670_g0v-logos.jpg" alt="illus. 2: Evolution of logotype designs" /></p>
+<h1>2013 Q1</h1>
+<h2>Hacking Infrastructures [Q1.1]</h2>
+<p>As the new projects continue online, writers and designers participating in g0v found that Facebook groups lacked essential features such as shared bookmarks and task tracking. On the other hand, popular tools for open-source software development such as Git, IRC and Wikis posed a high entry barrier for non-coder participants.</p>
+<p>To address this issue, in January 2013, we launched <strong>hack.g0v.tw</strong> as the common entry point for online projects as well as face-to-face events. It combines several tools that form a cohesive space for coordination:</p>
+<ul>
+<li><strong>Hackfoldr</strong> organizes all related links around a project into multi-level bookmarks.</li>
+<li><strong>EtherCalc</strong> provides a scalable, multi-user spreadsheet with an API tailored to the needs of Hackfoldr.</li>
+<li><strong>People Registry</strong> lets participants discover each other with profile tags for projects, issues, skills and interests.</li>
+<li><strong>Project Registry</strong> lists the contact information for each project, as well as bite-sized tasks for new contributors.</li>
+<li><strong>Web Chat</strong> keeps daily logs with a distinct URL for each line, and introduces new users to IRC via web-based chatrooms.</li>
+</ul>
+<p>Owing to the diverse nature of the projects and participants, there’s a strong preference for lightweight, descriptive structures (“tags”) over rigid, prescriptive structures (“taxonomies”).</p>
+<p>Because much of our activities are face-to-face, we also favor real-time shared documents (e.g., Hackpad and EtherCalc) over revision-controlled, long distance collaboration tools (e.g., Wikis and mailing lists).</p>
+<h2>Reclaiming Our Language [Q1.2]</h2>
+<h2>Job Helper [Q1.3]</h2>
+<h1>2013 Q2</h1>
+<h2>Listening to Welfare [Q2.1]</h2>
+<h2>Open Source Developers’ Conference [Q2.2]</h2>
+<h2>From Anger to Facts [Q2.3]</h2>
+<h1>2013 Q3</h1>
+<h2>Liquid Democracy [Q3.1]</h2>
+<h2>COSCUP × 1985 [Q3.2]</h2>
+<h2>News Helper [Q3.3]</h2>
+<h1>2013 Q4</h1>
+<h2>Congress Matters [Q4.1]</h2>
+<h2>Media Relations [Q4.2]</h2>
+<h2>Art and Culture [Q4.3]</h2>
+<h1>Related Movements</h1>
+<h1>Conclusions and Aspirations</h1>
+</body>
+</html>
