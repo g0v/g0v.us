@@ -10,3 +10,10 @@ h2 { padding-top: 1ex; padding-bottom: 0.5ex }
 body { letter-spacing: 0.25px }
 p, blockquote p { line-height: 135%; padding-top: 5px }
 .container { max-width: 90ex; border-radius: 3px }
+footer {
+    margin-top: 50px;
+    padding: 15px;
+}
+tt {
+    font-family: Menlo, 'Source Code Pro', 'Ubuntu Mono', 'DejaVu Sans Mono', 'Droid Sans Mono', 'Fira Mono OT', Consolas, monospace;
+}
