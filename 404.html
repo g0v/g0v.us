@@ -22,11 +22,17 @@
         <![endif]-->
         <base target="_blank">
         <style>
-            body { font-size: 16px; }
+            body { font-size: 16px; background: #f9f5f5 }
+            @media only screen and (min-width: 768px) {
+                body { background: #b9b4b4 }
+                .container { background: #f9f5f5; padding: 5% }
+            }
             img { max-height: 50ex; }
             h1 { border-bottom: 1px solid #ddd; padding-top: 1ex }
-            h2, li { padding-top: 0.5ex; padding-bottom: 0.5ex }
-            p, blockquote p { line-height: 140% }
+            li { padding-top: 0.5ex; padding-bottom: 0.5ex }
+            h2 { padding-top: 1ex; padding-bottom: 0.5ex }
+            body { letter-spacing: 0.25px }
+            p, blockquote p { line-height: 135%; padding-top: 5px }
             .container { max-width: 90ex }
         </style>
     </head>
