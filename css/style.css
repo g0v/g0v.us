@@ -368,6 +368,10 @@ body {
   line-height: 1.29;
 }
 @media (max-width: 767px) {
+body .content-23.custom-bg {
+  background-color: white;
+  background-attachment: local;
+}
   body {
     padding-right: 0;
     padding-left: 0;
