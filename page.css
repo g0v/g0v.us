@@ -17,3 +17,10 @@ footer {
 tt {
     font-family: Menlo, 'Source Code Pro', 'Ubuntu Mono', 'DejaVu Sans Mono', 'Droid Sans Mono', 'Fira Mono OT', Consolas, monospace;
 }
+article img {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+article footer img {
+    border: none;
+}
