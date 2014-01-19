@@ -87,9 +87,26 @@ Taking a <em>hands-on</em>, <em>open-source</em> and <em>public-spirited</em> ap
 <p>Owing to the diverse nature of the projects and participants, there’s a strong preference for lightweight, descriptive structures (“tags”) over rigid, prescriptive structures (“taxonomies”).</p>
 <p>Because much of our activities are face-to-face, we also favor real-time shared documents (e.g., Hackpad and EtherCalc) over revision-controlled, long distance collaboration tools (e.g., Wikis and mailing lists).</p>
 <h2>Reclaiming Our Language [Q1.2]</h2>
-<p>Ping Yeh, a long-time open source advocate who emigrated to the US in 2011, called upon g0v hackers to liberate the official Chinese dictionary edited by the Ministry of Education.
+<p>The resounding success for the December 2012 gathering prompted a successive event. The “1st Hackathon of Homesteading Commons” was held on January 27 at three cities across Taiwan, attracting one hundred on-site hackers and even more online participants.
 </p>
-<p><em>[In 24 hours, the <a href="http://moedict.tw/">MoeDict</a> project was born...]</em></p>
+<p>One of the online participants was Ping Yeh, a long-time open source advocate who immigrated to the US in 2011. In a blog article posted the night before the Hackathon, he called upon g0v hackers to liberate the <em>Revised Ministry of Education Dictionary</em> from the Ministry’s archaic website into “an open API, with full index and search capabilities, free for all individuals and companies to use.”
+</p>
+<p>
+With over 160 thousand entries, rich etymologies, and full references to classical texts, the <em>MoE Dictionary</em> has been the authoritative definition of the Traditional Chinese language since it was first published in 1945. The digital-only <em>Revised</em> edition launched in 1996 as a <em>“best viewed in MSIE 5.0 and Netscape 4.7”</em> website and attracted over 200 million visits—even with no upgrades—over the next fifteen years.
+</p>
+<p>
+What would it take to bring the <em>Revised MoE</em> into the modern web of permanent URLs, Unicode text, and mobile devices? Yeh argued that the Ministry of Education ought to provide structured dictionary data and let citizens take care of the presentation. Since the Ministry took the opposite stance by explicitly disallowing redistribution, Yeh pledged to personally design the required data structure so civic hackers could scrape the dictionary data to “reclaim our language.”
+</p>
+<p>
+More than 30 participants on the <em>MoeDict</em> team—formed during the Hackathon—worked overnight. The next day, the team published not only complete data in JSON and SQL formats, but also prototyped websites and apps for all major platforms. With the recent memory of Real Price Map’s closure, we forestalled copyright issues with two legal devices:
+</p>
+<ol>
+<li>By claiming Fair Use of government-produced data under Article 50 of Taiwan’s Copyright Act, we took a non-infringing position by adhering to strict not-for-profit principles.</li>
+<li>By disclaiming all property rights using the CC0 public domain declaration, we made sure the Ministry of Education could incorporate all our contributions at any time.</li>
+</ol>
+<p>
+After months of deliberation, the Ministry eventually agreed to our fair use claim and collaborated with us to convert their CC-licensed Taiwanese Holo & Hakka dictionaries into a cross-referenced, multilingual platform at <a href="https://www.moedict.tw">moedict.tw</a>. The website would go on to serve millions of visits per month, with over 100 thousand regular mobile app users by the end of 2013.
+</p>
 <h2>Job Helper [Q1.3]</h2>
 <p>It is important to job seekers to know whether an employer has followed employment laws and regulations while hiring employees. This is why <a href="http://jobhelper.g0v.ronny.tw/">Job Helper</a> was launched.
 </p>
@@ -160,6 +177,8 @@ COSCUP, the annual mega conference for open-source communities in Taiwan, coinci
 <h2>Media Relations [Q4.2]</h2>
 <h2>Art and Culture [Q4.3]</h2>
 <h1>Related Movements</h1>
+<h2>OpenData.tw</h2>
+<h2>Code for Tomorrow</h2>
 <h1>Conclusions and Aspirations</h1>
 <!-- footer-3 -->
 <footer>
@@ -177,6 +196,7 @@ COSCUP, the annual mega conference for open-source communities in Taiwan, coinci
             $('h2').each(function(){
                 var txt = $(this).text();
                 var id = txt.slice(-5).replace(/[Q\]]/g, '');
+                if (id === txt.slice(-5)) { return; }
                 $(this).text(txt.slice(0, -6));
                 // $(this).append($('<small/>').append($('<em/>').text("§" + id + "")));
                 $(this).attr('id', 'Q' + id);
