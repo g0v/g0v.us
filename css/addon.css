@@ -1,5 +1,9 @@
+.content-23.custom-bg {
+  background-image: url('../img/discussion.jpg');
+}
+
 .content-24.custom-bg {
-  background-image: url('../img/projects.jpg');
+  background-image: url('../img/summit_idea_pool.jpg');
 }
 
 .projects p {
