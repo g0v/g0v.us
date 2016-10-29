@@ -1,0 +1,28 @@
+.content-23.custom-bg {
+  background-image: url('../img/discussion.jpg');
+}
+
+.content-24.custom-bg {
+  background-image: url('../img/summit_idea_pool.jpg');
+}
+
+.projects p {
+  text-align: left;
+}
+
+.project-thumbnail {
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 400px;
+}
+
+.content-9 h3 {
+  margin-top: 15px;
+}
+body > section.content-9.v-center > div {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}

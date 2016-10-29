@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-174 101 450 400" style="enable-background:new -174 101 450 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.47;}
+	.st1{fill:#E80000;stroke:#FFFFFF;stroke-width:5;}
+	.st2{fill:#E8E8E8;stroke:#FFFFFF;stroke-width:5;}
+	.st3{fill:#B1B1B1;stroke:#FFFFFF;stroke-width:5;}
+	.st4{stroke:#FFFFFF;stroke-width:5;}
+	.st5{fill:#FFFFFF;}
+	.st6{font-family:'ArialMT';}
+	.st7{font-size:20px;}
+	.st8{fill:#E80000;}
+	.st9{fill:#B1B1B1;}
+	.st10{fill:#E8E8E8;}
+</style>
+<path class="st0" d="M235.2,492h-369.5c-8.2,0-14.8-6.6-14.8-14.8v-9.5c0-8.2,6.6-14.8,14.8-14.8h369.5c8.2,0,14.8,6.6,14.8,14.8
+	v9.5C250,485.4,243.4,492,235.2,492z"/>
+<g transform="translate( 225 177.9375 )">
+	<path class="st1" d="M-174-68.9C-82.4-68.9-8.1,5.4-8.1,97c0,53.1-25.4,103-68.4,134.2L-174,97V-68.9z"/>
+	<path class="st2" d="M-76.5,231.2c-74.1,53.9-177.9,37.4-231.8-36.7c-10.2-14.1-18.2-29.7-23.6-46.3L-174,97L-76.5,231.2z"/>
+	<path class="st3" d="M-331.8,148.3C-354,79.9-329.7,5-271.5-37.2L-174,97L-331.8,148.3z"/>
+	<path class="st4" d="M-271.5-37.2c28.4-20.6,62.5-31.7,97.5-31.7V97L-271.5-37.2z"/>
+	<g transform="translate( 129.28424518387243 -42.00699767284442 )">
+		<text transform="matrix(1 0 0 1 -220.3154 123.1616)" class="st5 st6 st7">40%</text>
+	</g>
+	<g transform="translate( -42.0069976728444 129.28424518387246 )">
+		<text transform="matrix(1 0 0 1 -180.7612 77.6)" class="st6 st7">30%</text>
+	</g>
+	<g transform="translate( -129.28424518387246 -42.00699767284439 )">
+		<text transform="matrix(1 0 0 1 -159.0146 112.6)" class="st6 st7">20%</text>
+	</g>
+	<g transform="translate( -42.00699767284444 -129.28424518387243 )">
+		<text transform="matrix(1 0 0 1 -180.761 122.6)" class="st5 st6 st7">10%</text>
+	</g>
+</g>
+<path class="st8" d="M-124.3,463.8c-5.3,0-9.6,4.3-9.6,9.6s4.3,9.6,9.6,9.6s9.6-4.3,9.6-9.6S-119,463.8-124.3,463.8L-124.3,463.8"/>
+<text transform="matrix(1 0 0 1 -111.7063 480.0125)" class="st5 st6 st7">Coder</text>
+<path d="M-33,463.8c-5.3,0-9.6,4.3-9.6,9.6c0,5.3,4.3,9.6,9.6,9.6c5.3,0,9.7-4.3,9.7-9.6C-23.3,468.1-27.7,463.8-33,463.8L-33,463.8
+	"/>
+<text transform="matrix(1 0 0 1 -20.3406 480.0125)" class="st5 st6 st7">Designer</text>
+<path class="st9" d="M83.1,463.8c-5.3,0-9.6,4.3-9.6,9.6s4.3,9.6,9.6,9.6s9.6-4.3,9.6-9.6S88.4,463.8,83.1,463.8L83.1,463.8"/>
+<text transform="matrix(1 0 0 1 95.7313 480.0125)" class="st5 st6 st7">NGO</text>
+<path class="st10" d="M166.5,463.8c-5.3,0-9.6,4.3-9.6,9.6s4.3,9.6,9.6,9.6c5.3,0,9.6-4.3,9.6-9.6S171.8,463.8,166.5,463.8
+	L166.5,463.8"/>
+<text transform="matrix(1 0 0 1 179.1219 480.0125)" class="st5 st6 st7">Other</text>
+</svg>
