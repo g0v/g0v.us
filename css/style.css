@@ -1547,3 +1547,14 @@ body > section.v-center > div {
 tt {
     font-family: Menlo, 'Source Code Pro', 'Ubuntu Mono', 'DejaVu Sans Mono', 'Droid Sans Mono', 'Fira Mono OT', Consolas, monospace;
 }
+
+
+/* Fontello tweaks to get Flickr button working */
+
+.icon-flickr {
+  width: inherit;
+}
+
+.btn-large [class^="icon-flickr"] {
+  margin-top: 2px;
+}
